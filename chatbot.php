@@ -1,3 +1,5 @@
+header("Access-Control-Allow-Origin: *");
+
 <?php
 // Obtener el mensaje enviado por el usuario
 $message = $_POST['message'];
